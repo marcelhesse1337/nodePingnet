@@ -1,5 +1,5 @@
 const spawn = require('child_process').spawn;
-var io = require("socket.io-client")('http://localhost:3000');
+var io = require("socket.io-client")('https://kawaiicosplaygirls.herokuapp.com:3000');
 let ping = null;
 
 io.on("connect", function () {
